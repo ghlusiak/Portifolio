@@ -3,16 +3,10 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    name: "Home", //Nome da rota
-    component: () => import("@/views/HomeView.vue"),
-    meta: { title: "Home" }, // Define o título da aba para esta rota
-  },
-  {
-    path: "/about",
-    name: "About",
-    component: () => import("@/views/AboutView.vue"),
-    meta: { title: "About" },
-  },
+    name: "Portifolio", 
+    component: () => import("@/views/Portifolio.vue"),
+    meta: { title: "Portifolio" }, 
+  }
 ];
 
 const router = createRouter({
@@ -21,7 +15,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || "Vue"; // Define o título da aba com base na meta.title
+  document.title = to.meta.title || "Vue"; 
   next();
 });
 
