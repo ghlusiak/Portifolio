@@ -36,6 +36,7 @@ import 'boxicons';
         height: 220px;
         width: 220px;
         border-radius: 50%;
+        border: 5px solid black;
         background-size:cover;
         background-repeat: no-repeat;
         display: block;
@@ -70,7 +71,8 @@ import 'boxicons';
         }
 
         a:hover{
-            font-size: 40px;
+            font-size: 30px;
+            color: #ff9100
         }
     }
 </style>

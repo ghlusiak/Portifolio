@@ -3,9 +3,9 @@ import { createRouter, createWebHistory } from "vue-router";
 const routes = [
   {
     path: "/",
-    name: "Portifolio", 
-    component: () => import("@/views/Portifolio.vue"),
-    meta: { title: "Portifolio" }, 
+    name: "Portfólio", 
+    component: () => import("@/views/Portfolio.vue"),
+    meta: { title: "Portfólio" }, 
   }
 ];
 

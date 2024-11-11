@@ -3,7 +3,7 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </template>
 <script>
-import Portifolio from './views/Portifolio.vue';
+import Portifolio from './views/Portfolio.vue';
 import 'boxicons';
 
 export default{
