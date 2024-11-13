@@ -1,14 +1,15 @@
 <template>
-  <Portifolio />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <main>
+    <RouterView />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </main>
 </template>
 <script>
-import Portifolio from './views/Portfolio.vue';
 import 'boxicons';
+import { RouterLink, RouterView } from 'vue-router'
 
 export default{
   components:{
-    Portifolio
   }
 }
 

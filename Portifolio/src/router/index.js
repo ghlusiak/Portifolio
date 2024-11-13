@@ -4,8 +4,20 @@ const routes = [
   {
     path: "/",
     name: "Portfólio", 
-    component: () => import("@/views/Portfolio.vue"),
+    component: () => import("@/views/PortfolioView.vue"),
     meta: { title: "Portfólio" }, 
+  },
+  {
+    path: "/3c",
+    name: "3c+",
+    component: () => import("@/views/3CPlusView.vue"),
+    meta: { title: "3C CRM" },
+  },
+  {
+    path: "/materiais",
+    name: "MC",
+    component: () => import("@/views/M&CView.vue"),
+    meta: { title: "Materiais de Construção" },
   }
 ];
 
