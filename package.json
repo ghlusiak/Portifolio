@@ -1,5 +1,4 @@
 {
-  "homepage": "https://ghlusiak.github.io/Portifolio",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "predeploy": "npm run serve",
-    "deploy": "gh-pages -d dist"
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "axios": "^1.7.2",
